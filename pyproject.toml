@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "event-gatherer"
+version = "0.1.0"
+description = ""
+authors = ["Gonçalo Santos <gmfa.santos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pymongo = "^4.10.1"
+python-dotenv = "^1.0.1"
+psycopg2 = "^2.9.10"
+requests = "^2.32.3"
+pathlib = "^1.0.1"
+pydantic = "^2.10.3"
+asyncpg = "^0.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
